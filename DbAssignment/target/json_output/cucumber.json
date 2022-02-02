@@ -1,0 +1,356 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6862965700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on twitter login page",
+            "match": {
+              "location": "TodoSteps.redirect_ToLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2394044900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AbstractBase.Setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login with valid username and password",
+        "description": "",
+        "id": "twitter-functionality;login-with-valid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 813911100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AbstractBase.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7309957900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs in with following credentials",
+            "match": {
+              "location": "TodoSteps.login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "@Indrase62452060",
+                  "Indrasen@1204"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43287300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user expect to be navigated to home page",
+            "match": {
+              "location": "TodoSteps.verifyLogin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6712372100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on twitter login page",
+            "match": {
+              "location": "TodoSteps.redirect_ToLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1573345500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AbstractBase.Setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Upload profile picture and update profile details",
+        "description": "",
+        "id": "twitter-functionality;upload-profile-picture-and-update-profile-details",
+        "after": [
+          {
+            "result": {
+              "duration": 864286600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AbstractBase.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7090990700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user logs in with following credentials",
+            "match": {
+              "location": "TodoSteps.login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "@Indrase62452060",
+                  "Indrasen@1204"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16764495600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user navigates to profile page to upload a profile picture",
+            "match": {
+              "location": "TodoSteps.userUploadProfilePicture()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5094572100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user update following details in profile section",
+            "match": {
+              "location": "TodoSteps.updateProfileSection(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bio",
+                  "Selenium Automation Expert1"
+                ]
+              },
+              {
+                "cells": [
+                  "location",
+                  "Pune1"
+                ]
+              },
+              {
+                "cells": [
+                  "website",
+                  "twitter123.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3241991000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user expect following details updated in profile section",
+            "match": {
+              "location": "TodoSteps.verifyProfileSection(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bio",
+                  "Selenium Automation Expert1"
+                ]
+              },
+              {
+                "cells": [
+                  "location",
+                  "Pune1"
+                ]
+              },
+              {
+                "cells": [
+                  "website",
+                  "http://twitter123.com"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3795949200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on twitter login page",
+            "match": {
+              "location": "TodoSteps.redirect_ToLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1539323900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AbstractBase.Setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Retrieve the tweets",
+        "description": "",
+        "id": "twitter-functionality;retrieve-the-tweets",
+        "after": [
+          {
+            "result": {
+              "duration": 845707200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AbstractBase.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8061492500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user logs in with following credentials",
+            "match": {
+              "location": "TodoSteps.login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "@Indrase62452060",
+                  "Indrasen@1204"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25706820500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user retrieves the tweets for the twitter page of \"The Times Of India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The Times Of India\"",
+                  "offset": 50
+                }
+              ],
+              "location": "TodoSteps.retrieveTheTweets(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Twitter functionality",
+    "description": "",
+    "id": "twitter-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/db/features/assignment.feature",
+    "tags": []
+  }
+]

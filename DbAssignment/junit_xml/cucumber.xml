@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="98.722299">
+    <testcase classname="Twitter functionality" name="Login with valid username and password" time="17.429723">
+        <system-out>
+            <![CDATA[Given user is on twitter login page.........................................passed
+When user logs in with following credentials................................passed
+Then user expect to be navigated to home page...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Twitter functionality" name="Upload profile picture and update profile details" time="41.34275">
+        <system-out>
+            <![CDATA[Given user is on twitter login page.........................................passed
+When user logs in with following credentials................................passed
+And user navigates to profile page to upload a profile picture..............passed
+And user update following details in profile section........................passed
+Then user expect following details updated in profile section...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Twitter functionality" name="Retrieve the tweets" time="39.949826">
+        <system-out>
+            <![CDATA[Given user is on twitter login page.........................................passed
+When user logs in with following credentials................................passed
+Then user retrieves the tweets for the twitter page of "The Times Of India".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
